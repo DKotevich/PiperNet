@@ -1,0 +1,154 @@
+@import url("normalize.css");
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: "regular";
+    line-height: 1.2;
+}
+
+p {
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.content {
+    max-width: 1219px;
+    margin: 0 auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 92px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    height: 84px;
+    background-color: #007765;
+}
+
+.header_list {
+    font-weight: 500;
+}
+
+.header_list li {
+    text-indent: 8px;
+    display: inline-block;
+    color: white;
+}
+
+.header_list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.fone {
+    /*margin-top: 84px;*/
+    position: relative;
+    background-image: url(../img/image.png);
+    height: 403px;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.head {
+    color: #007765;
+    text-align: center;
+    font-size: 64px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.fone2 {
+    position: relative;
+    background-image: url(../img/image-2.png);
+    height: 483px;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.centered2 {
+    max-width: 1109px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.logo {
+    margin-right: 48px;
+    float: left;
+}
+
+.table1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.line {
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.fig1 {
+
+    color: #007765;
+    text-align: center;
+    font-size: 24px;
+}
+
+.fig2 {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    height: 176px;
+    color: white;
+}
+
+.foot {
+    height: 64px;
+    width: 540px;
+    text-align: center;
+}
